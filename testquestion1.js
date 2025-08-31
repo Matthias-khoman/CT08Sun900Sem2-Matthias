@@ -3,7 +3,7 @@ function setup(){
     background(220);
     new Sprite = ball;
     ball.x = mouseX;
-    ball.y
+    ball.y = mouseY;
     ball.gravity.Y = ('dynamic');
 }
 function draw(){
