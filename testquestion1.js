@@ -7,6 +7,6 @@ function draw(){
     new Sprite = ball;
     ball.gravity.Y = ('dynamic');
     if (mousepresses()){
-        ball(mouseX, mouseY, );
+        ball(mouseX, mouseY);
     }
 }
