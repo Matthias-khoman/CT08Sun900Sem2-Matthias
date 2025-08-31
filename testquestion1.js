@@ -2,6 +2,7 @@ function setup(){
     createCanvass(600, 400);
     background(220);
     new Sprite = ball;
+    ball.x 
     ball.gravity.Y = ('dynamic');
 }
 function draw(){
