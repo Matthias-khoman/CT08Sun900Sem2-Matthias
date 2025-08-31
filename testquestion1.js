@@ -10,5 +10,6 @@ function setup(){
 function draw(){
     if (mousepresses()){
         ball(mouseX, mouseY);
+        
     }
 }
