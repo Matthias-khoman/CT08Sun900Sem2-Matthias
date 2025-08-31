@@ -2,7 +2,7 @@ function setup(){
     createCanvass(600, 400);
     background(220);
     new Sprite = circle(mouseX, mouseY, 200);
-    new Sprite = ground(600, 200, collider())
+    new Sprite = ground(600, 200, collider('static'))
     circle.collider('dynamic');
 }
 function draw(){
