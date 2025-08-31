@@ -1,7 +1,7 @@
 function setup(){
     createCanvass(600, 400);
     background(220);
-    
+    AudioWorkletNode.gravity.y
     new Sprite = ball;
     ball.x = mouseX;
     ball.y = mouseY;
