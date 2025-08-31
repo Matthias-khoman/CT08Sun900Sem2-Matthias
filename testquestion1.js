@@ -7,6 +7,6 @@ function draw(){
     new Sprite = circle(mouseX, mouseY, 200);
     circle.gravity.Y = ('dynamic');
     if (mousepresses()){
-        circle()
+        circle();
     }
 }
