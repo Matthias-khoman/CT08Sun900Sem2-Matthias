@@ -3,11 +3,11 @@ function setup(){
     background(220);
     new Sprite = circle(mouseX, mouseY, 200);
     new Sprite = ground(600, 200, 'static')
-    circle.collider('dynamic');
+    circle.gravity('dynamic');
 }
 function draw(){
     background(220);
     if (mousepresses()){
-        
+        s
     }
 }
