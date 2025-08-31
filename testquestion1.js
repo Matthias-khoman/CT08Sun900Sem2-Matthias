@@ -4,8 +4,8 @@ function setup(){
 }
 function draw(){
     background(220);
-    new Sprite = circle(mouseX, mouseY, 200);
-    circle.gravity.Y = ('dynamic');
+    new Sprite = ball;
+    ball.gravity.Y = ('dynamic');
     if (mousepresses()){
         circle();
     }
